@@ -4,22 +4,28 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div id="topleftmenu">
-     	<ul>
+	<div>
+     	<ul class="topleftmenu">
 		    <li>About</li>
 		    <li>Store</li>
 	    </ul>
 	</div>
 	<div>
-		<ul id="rightside">
+		<ul class="toprightmenu">
 			<li>Gmail</li>
 			<li>Images</li>
 		</ul>
 	</div>
-	<img src="https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-	<form>
-		<input type="text" name="search" class="search" placeholder="search here">
-	</form>
-	<button>Google Search</button>
-	<button>I'm Feelin Lucky</button>
+	<div class="GoogleLogo">
+		<img src="https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+	</div>
+	<div class="SearchForm">
+		<form>
+			<input type="text" size="40" name="search" class="search">
+		</form>
+	</div>
+	<div class="Buttons">
+		<button>Google Search</button>
+		<button>I'm Feelin Lucky</button>
+	</div>
 </body>

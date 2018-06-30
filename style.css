@@ -1,13 +1,33 @@
-ul {
-	list-style-type: none;
-	margin: 0:
-	padding 0;
-}
 
 li {
-	display: inline;
+ display: inline;
 }
 
-#rightside{
-	color:red;
+.topleftmenu {
+	text-align: left;
+	
+}
+
+.toprightmenu {
+	text-align: right;
+}
+
+
+.GoogleLogo {
+	padding-top: 200px;
+	text-align: center;
+
+}
+
+.SearchForm {
+	
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+
+}
+
+.Buttons {
+	text-align: center;
 }
